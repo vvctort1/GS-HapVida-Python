@@ -59,6 +59,20 @@ Olá, {username}
         if escolha == 0:
             print("Logout")
             break
+        elif escolha == 1:
+            pass
+        elif escolha == 2:
+            pass
+        elif escolha == 3:
+            pass
+        elif escolha == 4:
+            pass
+        elif escolha == 5:
+            pass
+        elif escolha == 6:
+            pass
+        else:
+            print("Escolha 0, 1, 2, 3, 4, 5 ou 6 para a escolha ser válida!")
 
 
 

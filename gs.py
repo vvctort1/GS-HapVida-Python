@@ -13,7 +13,7 @@ Menu Principal
 2 - Login Usuário;
 """)
 
-        escolha = int(input("Escolha: "))
+        escolha = int(input("Escolha: \n"))
 
         if escolha == 0:
             print("Programa finalizado!")

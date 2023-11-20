@@ -16,7 +16,7 @@ def cadastroEnfermeiros() -> None:
         while nome == "":
             print("Campo em branco!")
             nome = input("Escolha seu nome de usuário: ").upper().strip()
-        senha = input("Escolha sua senha (00 para gerar uma senha forte: ")
+        senha = input("Escolha sua senha (00 para gerar uma senha forte): ")
         if senha == "00":
             length = '16'
             api_url = 'https://api.api-ninjas.com/v1/passwordgenerator?length={}'.format(length)
